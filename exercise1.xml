@@ -1,20 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE aeroport SYSTEM "/home/chafi/Documents/tpnote/exercise1.dtd">
+<?xml-stylesheet type="text/xsl" href="/home/chafi/Documents/tpnote/style.xsl"?>
 <aeroport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/chafi/Documents/tpnote/exercise1.xsd">
     <infrastructures>
-        <pistes>
-            <piste>
-                <numero>1</numero>
-                <longueur>3000</longueur>
-                <etat>ouverte</etat>
-            </piste>
-            <piste>
-                <numero>2</numero>
-                <longueur>2500</longueur>
-                <etat>fermée</etat>
-            </piste>
-        </pistes>
-
         <compagniesAeriennes>
             <compagnie>
                 <nom>Air France</nom>
@@ -23,11 +11,13 @@
                 
                 <employes>
                     <employe>
-                    <id>CD1256278920</id>
+                        <id>CD1256278920</id>
                         <nom>Jean jules</nom>
                         <age>35</age>
                         <dateNaissance>
-<jour>11</jour> <moi>03</moi>  <annee>1898</annee>              
+                            <jour>11</jour>
+                            <moi>03</moi>
+                            <annee>1898</annee>              
                         </dateNaissance> 
                         <poste>Pilote</poste>
                     </employe>
@@ -48,6 +38,11 @@
                                     <date>2023-10-01</date> 
                                     <heure>16:40:00</heure> 
                                 </arrivee>
+                                 <piste>
+                          <numero>1</numero>
+                          <longueur>3000</longueur>
+                          <etat>ouverte</etat>
+                      </piste>
                             </vol>
                         </vols>
                     </avion>
@@ -65,10 +60,10 @@
                         <nom>Marie EL</nom>
                         <age>28</age>
                         <dateNaissance>
-<jour>12</jour>  <moi>12</moi><annee>1996</annee>
+                            <jour>12</jour>
+                            <moi>12</moi>
+                            <annee>1996</annee>
                         </dateNaissance> 
-                        
-                        
                         <poste>Contrôleur aérien</poste>
                     </employe>
                 </employes>
@@ -88,6 +83,7 @@
                                     <date>2023-10-01</date>
                                     <heure>20:00:00</heure> 
                                 </arrivee>
+                                <piste type="numero">2</piste>
                             </vol>
                         </vols>
                     </avion>

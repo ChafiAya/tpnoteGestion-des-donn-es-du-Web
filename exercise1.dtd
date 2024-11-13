@@ -1,10 +1,5 @@
 <!ELEMENT aeroport (infrastructures)>
-<!ELEMENT infrastructures (pistes, compagniesAeriennes)>
-<!ELEMENT pistes (piste+)>
-<!ELEMENT piste (numero, longueur, etat)>
-<!ELEMENT numero (#PCDATA)>
-<!ELEMENT longueur (#PCDATA)>
-<!ELEMENT etat (#PCDATA)>
+<!ELEMENT infrastructures (compagniesAeriennes)>
 <!ELEMENT compagniesAeriennes (compagnie+)>
 <!ELEMENT compagnie (nom, code, pays, employes, avions)>
 <!ELEMENT nom (#PCDATA)>
@@ -24,8 +19,14 @@
 <!ELEMENT immatriculation (#PCDATA)>
 <!ELEMENT modele (#PCDATA)>
 <!ELEMENT vols (vol)>
-<!ELEMENT vol (numero, depart, arrivee)>
+<!ELEMENT vol (numero, depart, arrivee, piste)>
+<!ELEMENT numero (#PCDATA)>
 <!ELEMENT depart (date, heure)>
 <!ELEMENT date (#PCDATA)>
 <!ELEMENT heure (#PCDATA)>
 <!ELEMENT arrivee (date, heure)>
+<!ELEMENT piste (numero?, longueur?, etat?)>
+<!ATTLIST piste
+          type CDATA #IMPLIED>
+<!ELEMENT longueur (#PCDATA)>
+<!ELEMENT etat (#PCDATA)>

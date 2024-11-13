@@ -1,0 +1,13 @@
+Expressions XPath pour le document XML de l'aéroport :
+
+1. Affichez les dates de chacun des vols :
+   - Date de départ :     //vol/depart
+   - Date d'arrivée : //vol/arrivee
+
+2. Récupérez la piste du 1er vol :
+   - Piste du 1er vol : /aeroport/infrastructures/compagniesAeriennes/compagnie[1]/avions/avion[1]/vols/vol[1]/piste
+3. Affichez le nom du pilote pour chacun des vols :
+   - Nom du pilote : //compagnie/employes/employe[poste='Pilote']/nom
+
+
+
