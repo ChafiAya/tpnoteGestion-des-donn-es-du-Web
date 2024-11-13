@@ -57,14 +57,7 @@
                 <xsl:value-of select="../modele"/>
             </td>
             <td>
-                <xsl:choose>
-                    <xsl:when test="../preceding-sibling::pistes/piste[1]">
-                        <xsl:value-of select="../preceding-sibling::pistes/piste[1]/numero"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>N/A</xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
+                <xsl:value-of select="piste/numero"/>
             </td>
         </tr>
     </xsl:template>

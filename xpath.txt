@@ -1,5 +1,5 @@
 Expressions XPath pour le document XML de l'aéroport :
-
+ tous ces xpah ete valide en utilisant xml copy editor 
 1. Affichez les dates de chacun des vols :
    - Date de départ :     //vol/depart
    - Date d'arrivée : //vol/arrivee
