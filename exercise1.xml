@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeroport SYSTEM "/home/chafi/Documents/tpnote/exercise1.dtd">
+<aeroport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/chafi/Documents/tpnote/exercise1.xsd">
+    <infrastructures>
+        <pistes>
+            <piste>
+                <numero>1</numero>
+                <longueur>3000</longueur>
+                <etat>ouverte</etat>
+            </piste>
+            <piste>
+                <numero>2</numero>
+                <longueur>2500</longueur>
+                <etat>fermée</etat>
+            </piste>
+        </pistes>
+
+        <compagniesAeriennes>
+            <compagnie>
+                <nom>Air France</nom>
+                <code>IATA>AF</code>
+                <pays>France</pays>
+                
+                <employes>
+                    <employe>
+                    <id>CD1256278920</id>
+                        <nom>Jean jules</nom>
+                        <age>35</age>
+                        <dateNaissance>
+<jour>11</jour> <moi>03</moi>  <annee>1898</annee>              
+                        </dateNaissance> 
+                        <poste>Pilote</poste>
+                    </employe>
+                </employes>
+
+                <avions>
+                    <avion>
+                        <immatriculation>F-GXYZ</immatriculation>
+                        <modele>Boeing 737</modele>
+                        <vols>
+                            <vol>
+                                <numero>AF1234</numero>
+                                <depart>
+                                    <date>2023-10-01</date> 
+                                    <heure>14:25:00</heure> 
+                                </depart>
+                                <arrivee>
+                                    <date>2023-10-01</date> 
+                                    <heure>16:40:00</heure> 
+                                </arrivee>
+                            </vol>
+                        </vols>
+                    </avion>
+                </avions>
+            </compagnie>
+            
+            <compagnie>
+                <nom>Ryanair</nom>
+                <code>IATA>FR</code>
+                <pays>Irlande</pays>
+                
+                <employes>
+                    <employe>
+                        <id>CD12562751410</id>
+                        <nom>Marie EL</nom>
+                        <age>28</age>
+                        <dateNaissance>
+<jour>12</jour>  <moi>12</moi><annee>1996</annee>
+                        </dateNaissance> 
+                        
+                        
+                        <poste>Contrôleur aérien</poste>
+                    </employe>
+                </employes>
+
+                <avions>
+                    <avion>
+                        <immatriculation>EI-ABC</immatriculation>
+                        <modele>Airbus A320</modele>
+                        <vols>
+                            <vol>
+                                <numero>FR5678</numero>
+                                <depart>
+                                    <date>2023-10-01</date> 
+                                    <heure>18:00:00</heure> 
+                                </depart>
+                                <arrivee>
+                                    <date>2023-10-01</date>
+                                    <heure>20:00:00</heure> 
+                                </arrivee>
+                            </vol>
+                        </vols>
+                    </avion>
+                </avions>
+            </compagnie>
+        </compagniesAeriennes>
+    </infrastructures>
+</aeroport>
