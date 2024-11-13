@@ -1,0 +1,90 @@
+{
+    "aeroport": {
+      "infrastructures": {
+        "compagniesAeriennes": [
+          {
+            "nom": "Air France",
+            "code": "IATA: AF",
+            "pays": "France",
+            "employes": [
+              {
+                "id": "CD1256278920",
+                "nom": "Jean jules",
+                "age": 35,
+                "dateNaissance": {
+                  "jour": 11,
+                  "moi": 3,
+                  "annee": 1898
+                },
+                "poste": "Pilote"
+              }
+            ],
+            "avions": [
+              {
+                "immatriculation": "F-GXYZ",
+                "modele": "Boeing 737",
+                "vols": [
+                  {
+                    "numero": "AF1234",
+                    "depart": {
+                      "date": "2023-10-01",
+                      "heure": "14:25:00"
+                    },
+                    "arrivee": {
+                      "date": "2023-10-01",
+                      "heure": "16:40:00"
+                    },
+                    "piste": {
+                      "numero": 1,
+                      "longueur": 3000,
+                      "etat": "ouverte"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nom": "Ryanair",
+            "code": "IATA: FR",
+            "pays": "Irlande",
+            "employes": [
+              {
+                "id": "CD12562751410",
+                "nom": "Marie EL",
+                "age": 28,
+                "dateNaissance": {
+                  "jour": 12,
+                  "moi": 12,
+                  "annee": 1996
+                },
+                "poste": "Contrôleur aérien"
+              }
+            ],
+            "avions": [
+              {
+                "immatriculation": "EI-ABC",
+                "modele": "Airbus A320",
+                "vols": [
+                  {
+                    "numero": "FR5678",
+                    "depart": {
+                      "date": "2023-10-01",
+                      "heure": "18:00:00"
+                    },
+                    "arrivee": {
+                      "date": "2023-10-01",
+                      "heure": "20:00:00"
+                    },
+                    "piste": {
+                      "numero": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
